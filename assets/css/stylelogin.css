@@ -1,0 +1,107 @@
+.page-header {
+    min-height: 100vh;
+    max-height: 1000px;
+    display: flex !important;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    color: #fff;
+    position: relative;
+}
+
+.page-header, .page-header .page-header-image {
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+}
+
+.header-filter {
+    position: relative;
+}
+
+.header-filter:after {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+    position: absolute;
+}
+
+.container {
+	position: relative;
+	z-index: 1;
+}
+
+.btn-kirana {
+    color: #fff;
+    background-color: #28b463;
+    border-color: #28b463;
+}
+
+.btn-kirana:hover {
+	color: #fff;
+	box-shadow: 0 16px 38px -12px rgba(0,0,0,0.2),0 4px 25px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+}
+
+.font-login {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ava img {
+    width: 110px;
+    height: 110px;
+    box-shadow: 0 16px 38px -12px rgba(0,0,0,.56),0 4px 25px 0 rgba(0,0,0,.12),0 8px 10px -5px rgba(0,0,0,.2);
+    margin-top: -50px;
+    z-index: 1;
+    margin-bottom: 20px; 
+}
+
+#form {
+    margin-top: -20px;
+}
+
+.navbar {
+    padding-top: 20px;
+}
+
+.navbar-dark .navbar-brand {
+    color: white;
+    text-transform: uppercase;
+}
+
+.navbar-dark .navbar-brand:hover {
+    color: white;
+    text-transform: uppercase;
+}
+
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+.nav-item:hover {
+    background-color: rgba(255,255,255,0.1);
+}
+
+.active {
+    background-color: rgba(255,255,255,0.1);
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: white;
+}
+
+.logo{
+    height: auto;
+    width: 125px;
+}
